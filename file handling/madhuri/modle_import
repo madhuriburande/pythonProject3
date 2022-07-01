@@ -1,0 +1,30 @@
+from cmath import sqrt
+##que built in module
+import math
+print(sqrt(5))
+
+## que.multiple module
+import math,random
+print("the factorialis:=",math.factorial(5))
+print("the random:=",random.randint(5,10))
+
+##que.Import only specific classes or functions from a module
+from math import factorial
+
+print("The factorial of 7 is:=",factorial(7))
+
+##que.Import with renaming a module i.e  from <module_name> import <name> as <alternative_name>
+import random as rand
+print("random num:=",rand.randrange(10,20,2))
+
+from random import randint as random_number
+print(random_number(10, 50))
+
+##que.Import all names i.e import*
+from math import*
+print("4 raises Power of 2 ",pow(4,2))
+print("Factorail of 100 is :=",factorial(5))
+print("Area of circle is:=",pi*3)
+print("Square of  100 is :=",sqrt(100))
+
+##que.Python Module Search Path
